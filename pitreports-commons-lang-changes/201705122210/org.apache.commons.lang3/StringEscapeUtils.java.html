@@ -1,0 +1,413 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>StringEscapeUtils.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_260'>260</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_260'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeCsvIllegalStateException(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_264'>264</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_264'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testEscapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_265'>265</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_265'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testEscapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> removed call to java/io/Writer::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_267'>267</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_267'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_268'>268</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_268'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_269'>269</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_269'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_271'>271</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_271'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testEscapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_394'>394</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_394'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testUnescapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_398'>398</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_398'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeCsvWriter(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeCsvWriter(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeCsvWriter(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_399'>399</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_399'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testUnescapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> removed call to java/io/Writer::write &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_400'>400</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_400'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testUnescapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_404'>404</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_404'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_406'>406</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_406'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_408'>408</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_408'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_410'>410</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_410'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> removed call to java/io/Writer::write &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_412'>412</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_412'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>translate<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_455'>455</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_455'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeJava<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeJavaWithSlash(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeJava to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_483'>483</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_483'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeEcmaScript<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeEcmaScript(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeEcmaScript to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_511'>511</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_511'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeJson<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeJson to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_524'>524</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_524'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unescapeJava<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::unescapeJava to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_541'>541</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_541'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unescapeEcmaScript<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::unescapeEcmaScript to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_558'>558</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_558'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unescapeJson<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::unescapeJson to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_591'>591</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_591'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeHtml4<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeHiragana(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeHtml4 to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_604'>604</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_604'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeHtml3<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testEscapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeHtml3 to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_626'>626</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_626'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unescapeHtml4<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeHiragana(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::unescapeHtml4 to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_640'>640</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_640'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unescapeHtml3<br/><b>Killed by : </b>org.apache.commons.lang3.StringUtilsTest.testUnescapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::unescapeHtml3 to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_666'>666</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_666'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeXml<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testLang720(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeXml to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_698'>698</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_698'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeXml10<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeXml10 to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_728'>728</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_728'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeXml11<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeXml11 to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_750'>750</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_750'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unescapeXml<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::unescapeXml to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_776'>776</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_776'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>escapeCsv<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeCsvString(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::escapeCsv to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5e3c2c58_801'>801</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5e3c2c58_801'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unescapeCsv<br/><b>Killed by : </b>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeCsvString(org.apache.commons.lang3.StringEscapeUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/StringEscapeUtils::unescapeCsv to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeCsvWriter(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeHtmlHighUnicode(org.apache.commons.lang3.StringEscapeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeHtmlVersions(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testStandaloneAmphersand(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringUtilsTest.testUnescapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testIsAssignable(org.apache.commons.lang3.reflect.TypeUtilsTest) (6 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeJava(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeCsvString(org.apache.commons.lang3.StringEscapeUtilsTest) (2 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeCsvWriter(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeHexCharsHtml(org.apache.commons.lang3.StringEscapeUtilsTest) (232 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testLang720(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeHtml4(org.apache.commons.lang3.StringEscapeUtilsTest) (9 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeEcmaScript(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeHtml(org.apache.commons.lang3.StringEscapeUtilsTest) (2 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeCsvIllegalStateException(org.apache.commons.lang3.StringEscapeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeJavaWithSlash(org.apache.commons.lang3.StringEscapeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.StringUtilsTest.testEscapeSurrogatePairsLang858(org.apache.commons.lang3.StringUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testLang708(org.apache.commons.lang3.StringEscapeUtilsTest) (10 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeHiragana(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeCsvString(org.apache.commons.lang3.StringEscapeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeUnknownEntity(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testLang313(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeEcmaScript(org.apache.commons.lang3.StringEscapeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.StringUtilsTest.testEscapeSurrogatePairs(org.apache.commons.lang3.StringUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeJava(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testEscapeXml(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testUnescapeCsvIllegalStateException(org.apache.commons.lang3.StringEscapeUtilsTest) (10 ms)</li><li>org.apache.commons.lang3.StringEscapeUtilsTest.testLang911(org.apache.commons.lang3.StringEscapeUtilsTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

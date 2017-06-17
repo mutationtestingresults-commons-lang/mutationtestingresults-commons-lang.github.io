@@ -1,0 +1,303 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>BackgroundInitializer.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_115'>115</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_115'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorExternal(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> removed call to org/apache/commons/lang3/concurrent/BackgroundInitializer::setExternalExecutor &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_124'>124</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_124'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getExternalExecutor<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedTrue(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer::getExternalExecutor to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_135'>135</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_135'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isStarted<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorBeforeStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isStarted<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorBeforeStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_154'>154</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_154'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setExternalExecutor<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorBeforeStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_174'>174</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_174'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>start<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedTrue(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_180'>180</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_180'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>start<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedTrue(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_188'>188</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_188'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>start<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testInitializeTempExecutor(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_191'>191</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_191'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>start<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testStartMultipleTimes(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_211'>211</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_211'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorTemp(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer::get to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_213'>213</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_213'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetRuntimeException(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> removed call to org/apache/commons/lang3/concurrent/ConcurrentUtils::handleCause &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_214'>214</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_214'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer::get to ( if (x != null) null else throw new RuntimeException ) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_217'>217</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_217'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> removed call to java/lang/Thread::interrupt &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_231'>231</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_231'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getFuture<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetBeforeStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_235'>235</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_235'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getFuture<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorTemp(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer::getFuture to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_248'>248</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_248'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getActiveExecutor<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorBeforeStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer::getActiveExecutor to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_263'>263</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_263'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getTaskCount<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedTrue(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_290'>290</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_290'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createTask<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedTrue(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer::createTask to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_300'>300</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_300'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createExecutor<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedTrue(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer::createExecutor to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_326'>326</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_326'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>call<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorTemp(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BackgroundInitializer$InitializationTask::call to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_328'>328</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_328'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>call<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testInitializeTempExecutor(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@41e395f9_329'>329</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@41e395f9_329'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>call<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testInitializeTempExecutor(org.apache.commons.lang3.concurrent.BackgroundInitializerTest)</span></span> removed call to java/util/concurrent/ExecutorService::shutdown &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testSetExternalExecutorAfterStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeExternalExec(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (8 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testResultGetInitializerUnknown(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (5 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorExternal(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (2 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetCheckedException(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (2 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testAddInitializerNullInit(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedTrue(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testAddInitializerNullName(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testResultIsExceptionUnknown(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.testInitialize(org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedFalse(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.testInitExecutor(org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetRuntimeException(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeResultsIsSuccessfulFalse(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testAddInitializerAfterStart(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetInterruptedException(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (5 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testIsStartedAfterGet(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorTemp(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testInitialize(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeRuntimeEx(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeNoChildren(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeEx(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (3 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.testInitNullCallable(org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeResultsIsSuccessfulTrue(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetActiveExecutorBeforeStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetBeforeStart(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testSetExternalExecutor(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeTempExec(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (15 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testStartMultipleTimes(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.testInitExecutorNullCallable(org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeChildWithExecutor(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (2 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeNested(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (2 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testResultGetExceptionUnknown(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (13 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testInitializeTempExecutor(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testResultGetResultObjectUnknown(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (9 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testResultInitializerNamesModify(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (5 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

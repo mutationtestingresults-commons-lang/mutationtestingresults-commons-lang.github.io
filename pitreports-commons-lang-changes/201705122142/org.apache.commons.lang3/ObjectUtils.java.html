@@ -1,0 +1,943 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ObjectUtils.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_95'>95</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_95'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>defaultIfNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIsNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>defaultIfNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIsNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::defaultIfNull to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_122'>122</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_122'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>firstNonNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_123'>123</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_123'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>firstNonNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>firstNonNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>firstNonNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_124'>124</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_124'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>firstNonNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_125'>125</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_125'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>firstNonNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::firstNonNull to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_129'>129</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_129'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>firstNonNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::firstNonNull to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_156'>156</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_156'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>anyNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAnyNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>anyNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAnyNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_185'>185</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_185'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_186'>186</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_186'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_189'>189</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_189'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_190'>190</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_190'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_191'>191</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_191'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_195'>195</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_195'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>allNotNull<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_223'>223</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_223'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testEquals(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_224'>224</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_224'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testEquals(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_226'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testEquals(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.text.ExtendedMessageFormatTest.testEqualsHashcode(org.apache.commons.lang3.text.ExtendedMessageFormatTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_227'>227</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_227'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testEquals(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_229'>229</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_229'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testEquals(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_252'>252</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_252'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>notEqual<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testNotEqual(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>notEqual<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testNotEqual(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_273'>273</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_273'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_301'>301</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_301'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCodeMulti<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_nullArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_302'>302</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_302'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCodeMulti<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_emptyArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>hashCodeMulti<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_likeList(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>hashCodeMulti<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_emptyArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_304'>304</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_304'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCodeMulti<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_likeList(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>hashCodeMulti<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_likeList(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_307'>307</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_307'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCodeMulti<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_nullArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_329'>329</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_329'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuilder(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_330'>330</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_330'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuilder(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::identityToString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_333'>333</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_333'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuilder(org.apache.commons.lang3.ObjectUtilsTest)</span></span> removed call to org/apache/commons/lang3/ObjectUtils::identityToString &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_334'>334</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_334'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuilder(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::identityToString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_354'>354</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_354'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringAppendable(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_378'>378</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_378'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStrBuilder(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_402'>402</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_402'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuffer(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_426'>426</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_426'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>identityToString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuilder(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_458'>458</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_458'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testToString_Object(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testToString_Object(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_484'>484</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_484'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testToString_ObjectString(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testToString_ObjectString(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_505'>505</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_505'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>min<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_506'>506</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_506'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>min<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>min<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>min<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_507'>507</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_507'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>min<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>min<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_512'>512</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_512'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>min<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::min to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_531'>531</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_531'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>max<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_532'>532</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_532'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>max<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>max<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>max<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_533'>533</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_533'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>max<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>max<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_538'>538</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_538'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>max<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::max to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_552'>552</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_552'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_569'>569</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_569'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_570'>570</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_570'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_571'>571</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_571'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_572'>572</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_572'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_573'>573</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_573'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_574'>574</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_574'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_576'>576</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_576'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compare<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_596'>596</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_596'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>median<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMedian(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>median<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMedian(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_597'>597</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_597'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>median<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMedian(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::median to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_620'>620</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_620'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>median<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testComparatorMedian(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>median<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testComparatorMedian(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_621'>621</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_621'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>median<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testComparatorMedian(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::median to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_636'>636</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_636'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_638'>638</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_638'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_640'>640</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_640'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_643'>643</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_643'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> removed call to org/apache/commons/lang3/mutable/MutableInt::increment &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_648'>648</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_648'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_650'>650</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_650'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_652'>652</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_652'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_657'>657</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_657'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::mode to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_659'>659</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_659'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>mode<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::mode to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_674'>674</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_674'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfNotCloneable(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_676'>676</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_676'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfStringArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_678'>678</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_678'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfPrimitiveArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_683'>683</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_683'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfPrimitiveArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfPrimitiveArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> Changed increment from -1 to 1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfPrimitiveArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_684'>684</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_684'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfPrimitiveArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> removed call to java/lang/reflect/Array::set &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_705'>705</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_705'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfStringArray(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::clone to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_708'>708</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_708'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clone<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfNotCloneable(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::clone to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_729'>729</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_729'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>cloneIfPossible<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testPossibleCloneOfNotCloneable(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>cloneIfPossible<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testPossibleCloneOfCloneable(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::cloneIfPossible to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_768'>768</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_768'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>readResolve<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testNull(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils$Null::readResolve to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_811'>811</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_811'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_830'>830</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_830'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_853'>853</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_853'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST_BYTE<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>CONST_BYTE<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>CONST_BYTE<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>CONST_BYTE<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_856'>856</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_856'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST_BYTE<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_876'>876</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_876'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_895'>895</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_895'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_918'>918</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_918'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST_SHORT<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>CONST_SHORT<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>CONST_SHORT<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>CONST_SHORT<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_921'>921</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_921'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST_SHORT<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_942'>942</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_942'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_961'>961</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_961'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/ObjectUtils::CONST &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_980'>980</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_980'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of float value with -(x + 1) for org/apache/commons/lang3/ObjectUtils::CONST &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_999'>999</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_999'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/ObjectUtils::CONST &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@f93df0a_1019'>1019</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@f93df0a_1019'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>CONST<br/><b>Killed by : </b>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/ObjectUtils::CONST to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.reflect.TypeUtilsTest.testGenericArrayType(org.apache.commons.lang3.reflect.TypeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShort(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testNotEqual(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.text.ExtendedMessageFormatTest.testEqualsHashcode(org.apache.commons.lang3.text.ExtendedMessageFormatTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfCloneable(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testObjectCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuilder(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testCompare(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObject(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_difference_in_inherited_field(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testSelfInstanceTwoVarsReflectionObjectCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testToStringSpecifyStyleOutput(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_emptyArray(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testComparatorMedian_emptyItems(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShortArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testPossibleCloneOfUncloneable(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByte(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testSelfInstanceVarReflectionObjectCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (4 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testPossibleCloneOfCloneable(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.text.FormattableUtilsTest.testDefaultAppend(org.apache.commons.lang3.text.FormattableUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloat(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffTest.testCannotModify(org.apache.commons.lang3.builder.DiffTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testComparatorMedian(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_primitive_difference(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfStringArray(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testEquals(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testFirstNonNull(org.apache.commons.lang3.ObjectUtilsTest) (4 ms)</li><li>org.apache.commons.lang3.text.FormattableUtilsTest.testAlternatePadCharacter(org.apache.commons.lang3.text.FormattableUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.text.FormattableUtilsTest.testAlternatePadCharAndEllipsis(org.apache.commons.lang3.text.FormattableUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testIterator(org.apache.commons.lang3.builder.DiffResultTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStringBuffer(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testAllNotNull(org.apache.commons.lang3.ObjectUtilsTest) (3 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullRhs(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testComparatorMedian_nullComparator(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testTriviallyEqualTestEnabled(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionArrayCycleLevel2(org.apache.commons.lang3.builder.ToStringBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsNotSameNorEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfUncloneable(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringAppendable(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testMin(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testTriviallyEqualTestDisabled(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfPrimitiveArray(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.text.FormattableUtilsTest.testEllipsis(org.apache.commons.lang3.text.FormattableUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_array_difference(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (5 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testSimpleReflectionObjectCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testUnboundedWildcardType(org.apache.commons.lang3.reflect.TypeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testInt(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testCharArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBoolean(org.apache.commons.lang3.builder.DiffBuilderTest) (12 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testMedian_nullItems(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullStyle(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testChar(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDiffResult(org.apache.commons.lang3.builder.DiffBuilderTest) (2 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_likeList(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testToStringOutput(org.apache.commons.lang3.builder.DiffResultTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloatArray(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLong(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDouble(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testIsNull(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLongArray(org.apache.commons.lang3.builder.DiffBuilderTest) (2 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testToString_ObjectString(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testConstMethods(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testMode(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionArrayAndObjectCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testAnyNotNull(org.apache.commons.lang3.ObjectUtilsTest) (10 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testPossibleCloneOfNotCloneable(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testComparatorMedian_nullItems(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testLowerBoundedWildcardType(org.apache.commons.lang3.reflect.TypeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testLANG1190(org.apache.commons.lang3.reflect.TypeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionArrayArrayCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testMedian(org.apache.commons.lang3.ObjectUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testToString_Object(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testIntArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testHashCode(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testWildcardType(org.apache.commons.lang3.reflect.TypeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ToStringBuilderTest.testReflectionArrayCycle(org.apache.commons.lang3.builder.ToStringBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testNull(org.apache.commons.lang3.ObjectUtilsTest) (3 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testMedian_emptyItems(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testListIsNonModifiable(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testHashCodeMulti_multiple_nullArray(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testMax(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByteArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testIdentityToStringStrBuilder(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.ObjectUtilsTest.testCloneOfNotCloneable(org.apache.commons.lang3.ObjectUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullLhs(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

@@ -1,0 +1,1083 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>HashCodeBuilder.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_149'>149</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_149'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRegistry<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::getRegistry to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_165'>165</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_165'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isRegistered<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isRegistered<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isRegistered<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_186'>186</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_186'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_190'>190</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_190'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to org/apache/commons/lang3/builder/HashCodeBuilder::register &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_192'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to java/lang/reflect/AccessibleObject::setAccessible &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_193'>193</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_193'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_194'>194</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_194'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_195'>195</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_195'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_196'>196</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_196'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_197'>197</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_197'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_198'>198</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_198'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_210'>210</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_210'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionAppend<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to org/apache/commons/lang3/builder/HashCodeBuilder::unregister &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_255'>255</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_255'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_302'>302</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_302'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_358'>358</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_358'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHashCodeEx3(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_363'>363</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_363'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to org/apache/commons/lang3/builder/HashCodeBuilder::reflectionAppend &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_364'>364</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_364'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_366'>366</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_366'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to org/apache/commons/lang3/builder/HashCodeBuilder::reflectionAppend &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_368'>368</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_368'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_407'>407</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_407'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_447'>447</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_447'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_488'>488</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_488'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>reflectionHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_502'>502</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_502'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>register<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_504'>504</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_504'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>register<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to java/lang/ThreadLocal::set &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_523'>523</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_523'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unregister<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_525'>525</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_525'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unregister<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_526'>526</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_526'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>unregister<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to java/lang/ThreadLocal::remove &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_569'>569</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_569'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenFirst(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenFirst(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenFirst(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to org/apache/commons/lang3/Validate::isTrue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_570'>570</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_570'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenSecond(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByte(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenSecond(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to org/apache/commons/lang3/Validate::isTrue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_597'>597</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_597'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBoolean(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBoolean(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBoolean(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_598'>598</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_598'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBoolean(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_611'>611</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_611'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_612'>612</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_612'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_614'>614</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_614'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_618'>618</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_618'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_633'>633</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_633'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByte(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByte(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_634'>634</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_634'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByte(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_649'>649</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_649'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_650'>650</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_650'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_652'>652</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_652'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_656'>656</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_656'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_669'>669</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_669'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_670'>670</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_670'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeEqualsHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_683'>683</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_683'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_684'>684</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_684'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_686'>686</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_686'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_690'>690</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_690'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_703'>703</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_703'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDouble(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_716'>716</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_716'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_717'>717</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_717'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_719'>719</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_719'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_723'>723</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_723'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_736'>736</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_736'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloat(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloat(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_737'>737</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_737'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloat(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_750'>750</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_750'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_751'>751</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_751'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_753'>753</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_753'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_757'>757</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_757'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_770'>770</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_770'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testInt(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testInt(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_771'>771</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_771'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testInt(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_784'>784</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_784'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_785'>785</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_785'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_787'>787</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_787'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_791'>791</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_791'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_808'>808</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_808'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDouble(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDouble(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDouble(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced XOR with AND &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDouble(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_809'>809</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_809'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDouble(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_822'>822</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_822'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_823'>823</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_823'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_825'>825</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_825'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_829'>829</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_829'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_842'>842</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_842'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_843'>843</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_843'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_846'>846</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_846'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_849'>849</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_849'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> removed call to org/apache/commons/lang3/builder/HashCodeBuilder::appendArray &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_851'>851</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_851'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_854'>854</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_854'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_868'>868</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_868'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_870'>870</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_870'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_872'>872</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_872'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_874'>874</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_874'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_876'>876</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_876'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_878'>878</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_878'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_880'>880</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_880'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_882'>882</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_882'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendArray<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_900'>900</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_900'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanMultiArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_901'>901</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_901'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObjectArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_903'>903</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_903'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanMultiArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanMultiArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanMultiArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_907'>907</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_907'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanMultiArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_920'>920</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_920'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShort(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShort(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_921'>921</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_921'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShort(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_934'>934</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_934'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_935'>935</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_935'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_937'>937</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_937'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_941'>941</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_941'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>append<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArray(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::append to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_955'>955</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_955'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendSuper<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testSuper(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>appendSuper<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testSuper(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_956'>956</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_956'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>appendSuper<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testSuper(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::appendSuper to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_967'>967</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_967'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toHashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByte(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_979'>979</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_979'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>build<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObjectBuild(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/HashCodeBuilder::build to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1833f337_993'>993</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1833f337_993'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeEqualsHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDouble(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testSuper(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testInteger(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (6 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenNegative(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloat(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShort(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (3 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testFixtureWithTransients(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testInt(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObjectBuild(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCodeEx1(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObjectArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testIntegerWithTransients(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (5 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testFixture(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHierarchyHashCodeEx2(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHashCodeExcludeFields(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObjectArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (3 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testCharArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByte(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeExclude(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testShortArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testToHashCodeEqualsHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHashCode(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLongArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenFirst(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testIntArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHashCodeEx1(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExZero(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testChar(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testConstructorExEvenSecond(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBoolean(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHashCodeEx2(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testLong(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.ArrayUtilsTest.testHashCode(org.apache.commons.lang3.ArrayUtilsTest) (7 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testBooleanMultiArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testFloatArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.HashCodeBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionHashCodeEx3(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderTest.testByteArrayAsObject(org.apache.commons.lang3.builder.HashCodeBuilderTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

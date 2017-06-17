@@ -1,0 +1,463 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>JavaVersion.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_124'>124</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_124'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>atLeast<br/><b>Killed by : </b>org.apache.commons.lang3.JavaVersionTest.testAtLeast(org.apache.commons.lang3.JavaVersionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>atLeast<br/><b>Killed by : </b>org.apache.commons.lang3.JavaVersionTest.testAtLeast(org.apache.commons.lang3.JavaVersionTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>atLeast<br/><b>Killed by : </b>org.apache.commons.lang3.JavaVersionTest.testAtLeast(org.apache.commons.lang3.JavaVersionTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_138'>138</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_138'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getJavaVersion<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::getJavaVersion to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_151'>151</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_151'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_152'>152</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_152'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_153'>153</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_153'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_154'>154</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_154'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_155'>155</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_155'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_156'>156</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_156'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_157'>157</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_157'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_158'>158</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_158'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_159'>159</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_159'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_160'>160</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_160'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_161'>161</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_161'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_162'>162</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_162'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_163'>163</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_163'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_164'>164</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_164'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_165'>165</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_165'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_166'>166</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_166'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_167'>167</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_167'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_168'>168</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_168'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_169'>169</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_169'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_170'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_172'>172</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_172'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_173'>173</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_173'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_176'>176</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_176'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_179'>179</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_179'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_180'>180</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_180'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_183'>183</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_183'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::get to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_196'>196</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_196'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/JavaVersion::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_206'>206</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_206'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>maxVersion<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>maxVersion<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_207'>207</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_207'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>maxVersion<br/><b>Killed by : </b>none</span></span> replaced return of float value with -(x + 1) for org/apache/commons/lang3/JavaVersion::maxVersion &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_209'>209</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_209'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>maxVersion<br/><b>Killed by : </b>none</span></span> replaced return of float value with -(x + 1) for org/apache/commons/lang3/JavaVersion::maxVersion &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_220'>220</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_220'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toFloatVersion<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_222'>222</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_222'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toFloatVersion<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toFloatVersion<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_223'>223</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_223'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toFloatVersion<br/><b>Killed by : </b>none</span></span> replaced return of float value with -(x + 1) for org/apache/commons/lang3/JavaVersion::toFloatVersion &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_226'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toFloatVersion<br/><b>Killed by : </b>none</span></span> replaced return of float value with -(x + 1) for org/apache/commons/lang3/JavaVersion::toFloatVersion &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@50e07081_228'>228</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@50e07081_228'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toFloatVersion<br/><b>Killed by : </b>none</span></span> replaced return of float value with -(x + 1) for org/apache/commons/lang3/JavaVersion::toFloatVersion &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.reflect.TypeUtilsTest.testGetRawType(org.apache.commons.lang3.reflect.TypeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShort(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeLiteralTest.testBasic(org.apache.commons.lang3.reflect.TypeLiteralTest) (1 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_difference_in_inherited_field(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObject(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testDetermineTypeVariableAssignments(org.apache.commons.lang3.reflect.TypeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.JavaVersionTest.testAtLeast(org.apache.commons.lang3.JavaVersionTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testToStringSpecifyStyleOutput(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShortArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testGetTypeArguments(org.apache.commons.lang3.reflect.TypeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByte(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloat(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffTest.testCannotModify(org.apache.commons.lang3.builder.DiffTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_primitive_difference(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testIsInstance(org.apache.commons.lang3.reflect.TypeUtilsTest) (4 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testIterator(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullRhs(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testTriviallyEqualTestEnabled(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsNotSameNorEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.MethodUtilsTest.testGetMatchingAccessibleMethod(org.apache.commons.lang3.reflect.MethodUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.ClassUtilsTest.test_isAssignable_Widening(org.apache.commons.lang3.ClassUtilsTest) (2 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testTriviallyEqualTestDisabled(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_array_difference(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (6 ms)</li><li>org.apache.commons.lang3.ClassUtilsTest.test_isAssignable(org.apache.commons.lang3.ClassUtilsTest) (4 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testInt(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testCharArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.reflect.MethodUtilsTest.testGetOverrideHierarchyIncludingInterfaces(org.apache.commons.lang3.reflect.MethodUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBoolean(org.apache.commons.lang3.builder.DiffBuilderTest) (17 ms)</li><li>org.apache.commons.lang3.reflect.TypeLiteralTest.testRaw(org.apache.commons.lang3.reflect.TypeLiteralTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullStyle(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testChar(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDiffResult(org.apache.commons.lang3.builder.DiffBuilderTest) (7 ms)</li><li>org.apache.commons.lang3.ClassUtilsTest.test_isAssignable_DefaultUnboxing_Widening(org.apache.commons.lang3.ClassUtilsTest) (5 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testToStringOutput(org.apache.commons.lang3.builder.DiffResultTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloatArray(org.apache.commons.lang3.builder.DiffBuilderTest) (5 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLong(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDouble(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testIsAssignable(org.apache.commons.lang3.reflect.TypeUtilsTest) (18 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLongArray(org.apache.commons.lang3.builder.DiffBuilderTest) (2 ms)</li><li>org.apache.commons.lang3.reflect.TypeLiteralTest.testTyped(org.apache.commons.lang3.reflect.TypeLiteralTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testTypesSatisfyVariables(org.apache.commons.lang3.reflect.TypeUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.TypeUtilsTest.testLANG1190(org.apache.commons.lang3.reflect.TypeUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testIntArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.SystemUtilsTest.testIsJavaVersionAtLeat(org.apache.commons.lang3.SystemUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testListIsNonModifiable(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.LocaleUtilsTest.testToLocale_3Part(org.apache.commons.lang3.LocaleUtilsTest) (2 ms)</li><li>org.apache.commons.lang3.reflect.MethodUtilsTest.testGetOverrideHierarchyExcludingInterfaces(org.apache.commons.lang3.reflect.MethodUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.ClassUtilsTest.test_isAssignable_ClassArray_ClassArray(org.apache.commons.lang3.ClassUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByteArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.reflect.TypeLiteralTest.testEquals(org.apache.commons.lang3.reflect.TypeLiteralTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullLhs(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

@@ -1,0 +1,533 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>CharRange.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_68'>68</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_68'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_88'>88</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_88'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>is<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContainsNullArg(org.apache.commons.lang3.CharRangeTest)</span></span> mutated return of Object value for org/apache/commons/lang3/CharRange::is to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_100'>100</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_100'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isNot<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isNot(org.apache.commons.lang3.CharRangeTest)</span></span> mutated return of Object value for org/apache/commons/lang3/CharRange::isNot to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_113'>113</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_113'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isIn<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> mutated return of Object value for org/apache/commons/lang3/CharRange::isIn to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_126'>126</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_126'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isNotIn<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isNotIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> mutated return of Object value for org/apache/commons/lang3/CharRange::isNotIn to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_137'>137</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_137'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getStart<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_146'>146</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_146'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnd<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_158'>158</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_158'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isNegated<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_170'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Char(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Char(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Char(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Char(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Char(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Char(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_182'>182</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_182'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContainsNullArg(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_185'>185</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_185'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_186'>186</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_186'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_187'>187</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_187'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_189'>189</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_189'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_191'>191</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_191'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_192'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_194'>194</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_194'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>contains<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_208'>208</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_208'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_209'>209</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_209'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_211'>211</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_211'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_212'>212</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_212'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_215'>215</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_215'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_225'>225</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_225'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testHashCode(org.apache.commons.lang3.CharRangeTest)</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testHashCode(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_235'>235</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_235'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_237'>237</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_237'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_241'>241</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_241'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_247'>247</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_247'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest)</span></span> mutated return of Object value for org/apache/commons/lang3/CharRange::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_261'>261</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_261'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>iterator<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIteratorRemove(org.apache.commons.lang3.CharRangeTest)</span></span> mutated return of Object value for org/apache/commons/lang3/CharRange::iterator to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_284'>284</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_284'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_285'>285</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_285'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_286'>286</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_286'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_290'>290</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_290'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_304'>304</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_304'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_305'>305</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_305'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_307'>307</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_307'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_308'>308</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_308'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_311'>311</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_311'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_314'>314</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_314'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_316'>316</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_316'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_317'>317</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_317'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_330'>330</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_330'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hasNext<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_340'>340</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_340'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>next<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_344'>344</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_344'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>next<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> removed call to org/apache/commons/lang3/CharRange$CharacterIterator::prepareNext &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@3d6b4440_345'>345</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@3d6b4440_345'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>next<br/><b>Killed by : </b>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest)</span></span> mutated return of Object value for org/apache/commons/lang3/CharRange$CharacterIterator::next to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.CharSetTest.testConstructor_String_oddNegate(org.apache.commons.lang3.CharSetTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testDelete_StringStringarray(org.apache.commons.lang3.CharSetUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetTest.testStatics(org.apache.commons.lang3.CharSetTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Same(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isNotIn_Reversed(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetTest.testHashCode(org.apache.commons.lang3.CharSetTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetTest.testConstructor_String_combo(org.apache.commons.lang3.CharSetTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetTest.testContains_Char(org.apache.commons.lang3.CharSetTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetTest.testSerialization(org.apache.commons.lang3.CharSetTest) (6 ms)</li><li>org.apache.commons.lang3.CharSetTest.testConstructor_String_oddCombinations(org.apache.commons.lang3.CharSetTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetTest.testConstructor_String_comboNegated(org.apache.commons.lang3.CharSetTest) (1 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_is(org.apache.commons.lang3.CharRangeTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testContainsAny_StringString(org.apache.commons.lang3.CharSetUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testEquals_Object(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testKeep_StringStringarray(org.apache.commons.lang3.CharSetUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testKeep_StringString(org.apache.commons.lang3.CharSetUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isNot(org.apache.commons.lang3.CharRangeTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetTest.testGetInstance_Stringarray(org.apache.commons.lang3.CharSetTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testContains_Char(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testHashCode(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetTest.testConstructor_String_simple(org.apache.commons.lang3.CharSetTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testCount_StringString(org.apache.commons.lang3.CharSetUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testSerialization(org.apache.commons.lang3.CharRangeTest) (82 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testContainsNullArg(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testSqueeze_StringString(org.apache.commons.lang3.CharSetUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Reversed(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testContains_Charrange(org.apache.commons.lang3.CharRangeTest) (1 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isIn_Normal(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testContainsAny_StringStringarray(org.apache.commons.lang3.CharSetUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isNotIn_Same(org.apache.commons.lang3.CharRangeTest) (1 ms)</li><li>org.apache.commons.lang3.CharSetTest.testEquals_Object(org.apache.commons.lang3.CharSetTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetTest.testJavadocExamples(org.apache.commons.lang3.CharSetTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testIteratorRemove(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testCount_StringStringarray(org.apache.commons.lang3.CharSetUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testConstructorAccessors_isNotIn_Normal(org.apache.commons.lang3.CharRangeTest) (0 ms)</li><li>org.apache.commons.lang3.CharRangeTest.testIterator(org.apache.commons.lang3.CharRangeTest) (22 ms)</li><li>org.apache.commons.lang3.CharSetTest.testConstructor_String_oddDash(org.apache.commons.lang3.CharSetTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testDelete_StringString(org.apache.commons.lang3.CharSetUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.CharSetUtilsTest.testSqueeze_StringStringarray(org.apache.commons.lang3.CharSetUtilsTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

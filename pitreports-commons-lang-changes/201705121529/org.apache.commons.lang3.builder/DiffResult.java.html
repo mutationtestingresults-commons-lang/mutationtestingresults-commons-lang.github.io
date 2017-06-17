@@ -1,0 +1,223 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>DiffResult.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_74'>74</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_74'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.DiffResultTest.testNoDifferencesString(org.apache.commons.lang3.builder.DiffResultTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_78'>78</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_78'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.DiffResultTest.testNoDifferencesString(org.apache.commons.lang3.builder.DiffResultTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_82'>82</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_82'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.DiffResultTest.testNullList(org.apache.commons.lang3.builder.DiffResultTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_91'>91</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_91'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.builder.DiffResultTest.testNullStyle(org.apache.commons.lang3.builder.DiffResultTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_107'>107</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_107'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDiffs<br/><b>Killed by : </b>org.apache.commons.lang3.builder.DiffResultTest.testListIsNonModifiable(org.apache.commons.lang3.builder.DiffResultTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/DiffResult::getDiffs to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_118'>118</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_118'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNumberOfDiffs<br/><b>Killed by : </b>org.apache.commons.lang3.builder.DiffResultTest.testListIsNonModifiable(org.apache.commons.lang3.builder.DiffResultTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_129'>129</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_129'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getToStringStyle<br/><b>Killed by : </b>org.apache.commons.lang3.builder.DiffResultTest.testNullStyle(org.apache.commons.lang3.builder.DiffResultTest)</span></span> mutated return of Object value for org/apache/commons/lang3/builder/DiffResult::getToStringStyle to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_165'>165</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_165'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/builder/DiffResult::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_180'>180</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_180'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_181'>181</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_181'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/builder/DiffResult::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_187'>187</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_187'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_192'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/builder/DiffResult::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5490828f_205'>205</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5490828f_205'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>iterator<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/builder/DiffResult::iterator to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.builder.DiffBuilderTest.testCharArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBoolean(org.apache.commons.lang3.builder.DiffBuilderTest) (13 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullStyle(org.apache.commons.lang3.builder.DiffResultTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testChar(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDiffResult(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShort(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testToStringOutput(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloatArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testStylePassedToDiffResult(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLong(org.apache.commons.lang3.builder.DiffBuilderTest) (2 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDouble(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLongArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testSameObjectIgnoresAppends(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObject(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsSameAndEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testToStringSpecifyStyleOutput(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByteArrayEqualAsObject(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShortArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsNotSameButEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByte(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloat(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testIntArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectArrayEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNoDifferencesString(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testIterator(org.apache.commons.lang3.builder.DiffResultTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullRhs(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testTriviallyEqualTestEnabled(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testListIsNonModifiable(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByteArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsNotSameNorEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullList(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testSimilarObjectIgnoresAppends(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffResultTest.testNullLhs(org.apache.commons.lang3.builder.DiffResultTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testTriviallyEqualTestDisabled(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testInt(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

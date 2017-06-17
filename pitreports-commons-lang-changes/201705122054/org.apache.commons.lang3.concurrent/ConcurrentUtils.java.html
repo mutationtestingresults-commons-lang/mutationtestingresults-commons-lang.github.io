@@ -1,0 +1,403 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ConcurrentUtils.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_62'>62</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_62'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>extractCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseNullCause(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_63'>63</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_63'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::extractCause to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_66'>66</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_66'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> removed call to org/apache/commons/lang3/concurrent/ConcurrentUtils::throwCause &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_67'>67</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_67'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::extractCause to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_84'>84</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_84'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCauseUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>extractCauseUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_85'>85</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_85'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCauseUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::extractCauseUnchecked to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_88'>88</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_88'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCauseUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> removed call to org/apache/commons/lang3/concurrent/ConcurrentUtils::throwCause &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_89'>89</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_89'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>extractCauseUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::extractCauseUnchecked to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_109'>109</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_109'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>handleCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_130'>130</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_130'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>handleCauseUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseUncheckedNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_145'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkedException<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentExceptionCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>checkedException<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentExceptionCauseUnchecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>checkedException<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentExceptionCauseError(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>checkedException<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentExceptionCauseUnchecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> removed call to org/apache/commons/lang3/Validate::isTrue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_148'>148</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_148'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkedException<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::checkedException to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_158'>158</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_158'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>throwCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_162'>162</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_162'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>throwCause<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_183'>183</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_183'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initialize<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitialize(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>initialize<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitialize(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::initialize to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_201'>201</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_201'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitializeUnchecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::initializeUnchecked to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_243'>243</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_243'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>putIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testPutIfAbsentKeyNotPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_244'>244</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_244'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>putIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testPutIfAbsentNullMap(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::putIfAbsent to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_248'>248</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_248'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>putIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testPutIfAbsentKeyNotPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>putIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testPutIfAbsentKeyNotPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::putIfAbsent to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_273'>273</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_273'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentKeyPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>createIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentKeyPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_274'>274</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_274'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentNullInit(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::createIfAbsent to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_278'>278</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_278'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentKeyPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_279'>279</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_279'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentUncheckedSuccess(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::createIfAbsent to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_281'>281</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_281'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createIfAbsent<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentKeyPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::createIfAbsent to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_302'>302</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_302'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createIfAbsentUnchecked<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentUncheckedSuccess(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::createIfAbsentUnchecked to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_325'>325</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_325'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>constantFuture<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_Integer(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils::constantFuture to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_353'>353</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_353'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isDone<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_Integer(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_361'>361</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_361'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_Integer(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils$ConstantFuture::get to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_370'>370</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_370'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>get<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_Integer(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/ConcurrentUtils$ConstantFuture::get to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_379'>379</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_379'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCancelled<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_Integer(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4ab41e9_388'>388</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4ab41e9_388'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>cancel<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_Integer(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentExceptionCauseUnchecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseUncheckedNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_Integer(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitialize(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetCheckedException(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (18 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseError(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentExceptionCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseError(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeResultsIsSuccessfulFalse(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (3 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetRuntimeException(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitializeUncheckedNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetInterruptedException(org.apache.commons.lang3.concurrent.BackgroundInitializerTest) (9 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentExceptionCauseError(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentNullMap(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedNullCause(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedError(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeRuntimeEx(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (2 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseUncheckedUncheckedException(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testPutIfAbsentKeyPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitializeNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.testInitializeEx(org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest) (17 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentNullInit(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseUncheckedChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentRuntimeExceptionCauseError(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitializeUncheckedEx(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentKeyNotPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentRuntimeExceptionCauseUnchecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseUncheckedChecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentKeyPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testPutIfAbsentNullMap(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testPutIfAbsentKeyNotPresent(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConcurrentRuntimeExceptionCauseNull(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testHandleCauseUncheckedError(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testCreateIfAbsentUncheckedSuccess(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testConstantFuture_null(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testExtractCauseNullCause(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.ConcurrentUtilsTest.testInitializeUnchecked(org.apache.commons.lang3.concurrent.ConcurrentUtilsTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

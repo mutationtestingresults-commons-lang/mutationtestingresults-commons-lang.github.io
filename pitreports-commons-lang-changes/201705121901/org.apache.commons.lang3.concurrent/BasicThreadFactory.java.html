@@ -1,0 +1,363 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>BasicThreadFactory.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_115'>115</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_115'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_138'>138</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_138'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getWrappedFactory<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory::getWrappedFactory to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_148'>148</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_148'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNamingPattern<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory::getNamingPattern to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_160'>160</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_160'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDaemonFlag<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory::getDaemonFlag to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_170'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getPriority<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory::getPriority to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_180'>180</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_180'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getUncaughtExceptionHandler<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory::getUncaughtExceptionHandler to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_191'>191</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_191'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getThreadCount<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNamingPattern(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/BasicThreadFactory::getThreadCount &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_205'>205</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_205'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>newThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoDaemonFlag(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> removed call to org/apache/commons/lang3/concurrent/BasicThreadFactory::initializeThread &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_207'>207</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_207'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>newThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoDaemonFlag(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory::newThread to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_220'>220</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_220'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoDaemonFlag(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_222'>222</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_222'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNamingPattern(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> removed call to java/lang/Thread::setName &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_225'>225</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_225'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoDaemonFlag(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_226'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadExHandler(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> removed call to java/lang/Thread::setUncaughtExceptionHandler &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_229'>229</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_229'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoDaemonFlag(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_230'>230</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_230'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadPriority(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> removed call to java/lang/Thread::setPriority &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_233'>233</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_233'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoDaemonFlag(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_234'>234</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_234'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>initializeThread<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadDaemonFalse(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> removed call to java/lang/Thread::setDaemon &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_281'>281</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_281'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>wrappedFactory<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildWrappedFactoryNull(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_287'>287</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_287'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>wrappedFactory<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuilderResetAfterBuild(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory$Builder::wrappedFactory to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_299'>299</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_299'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>namingPattern<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildNamingPatternNull(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_305'>305</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_305'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>namingPattern<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuilderResetAfterBuild(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory$Builder::namingPattern to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_318'>318</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_318'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>daemon<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuilderResetAfterBuild(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory$Builder::daemon to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_330'>330</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_330'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>priority<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadPriority(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory$Builder::priority to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_344'>344</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_344'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>uncaughtExceptionHandler<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildUncaughtExceptionHandlerNull(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_350'>350</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_350'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>uncaughtExceptionHandler<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadExHandler(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory$Builder::uncaughtExceptionHandler to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_377'>377</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_377'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>build<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuilderResetAfterBuild(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> removed call to org/apache/commons/lang3/concurrent/BasicThreadFactory$Builder::reset &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@209c5936_378'>378</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@209c5936_378'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>build<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/BasicThreadFactory$Builder::build to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildWrappedFactoryNull(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadExHandler(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuilderReset(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (14 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoDaemonFlag(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadDaemonFalse(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (4 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNamingPattern(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoPriority(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuilderResetAfterBuild(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoNamingPattern(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildNamingPatternNull(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadNoExHandler(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadPriority(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildDefaults(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testNewThreadDaemonTrue(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.BasicThreadFactoryTest.testBuildUncaughtExceptionHandlerNull(org.apache.commons.lang3.concurrent.BasicThreadFactoryTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

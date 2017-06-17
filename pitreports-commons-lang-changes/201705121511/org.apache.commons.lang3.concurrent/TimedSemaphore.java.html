@@ -1,0 +1,433 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>TimedSemaphore.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_214'>214</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_214'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInitInvalidPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> removed call to org/apache/commons/lang3/Validate::inclusiveBetween &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_219'>219</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_219'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_225'>225</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_225'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> removed call to java/util/concurrent/ScheduledThreadPoolExecutor::setContinueExistingPeriodicTasksAfterShutdownPolicy &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_226'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInitDefaultService(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> removed call to java/util/concurrent/ScheduledThreadPoolExecutor::setExecuteExistingDelayedTasksAfterShutdownPolicy &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_231'>231</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_231'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> removed call to org/apache/commons/lang3/concurrent/TimedSemaphore::setLimit &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_242'>242</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_242'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getLimit<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_265'>265</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_265'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>shutdown<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testShutdownOwnExecutor(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_267'>267</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_267'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>shutdown<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testShutdownOwnExecutor(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_272'>272</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_272'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>shutdown<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInitDefaultService(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_288'>288</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_288'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isShutdown<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_303'>303</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_303'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquire<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testPassAfterShutdown(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> removed call to org/apache/commons/lang3/concurrent/TimedSemaphore::prepareAcquire &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_308'>308</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_308'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquire<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_309'>309</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_309'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquire<br/><b>Killed by : </b>none</span></span> removed call to java/lang/Object::wait &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_311'>311</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_311'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquire<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_326'>326</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_326'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>tryAcquire<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testTryAcquireAfterShutdown(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> removed call to org/apache/commons/lang3/concurrent/TimedSemaphore::prepareAcquire &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_327'>327</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_327'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>tryAcquire<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testTryAcquire(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_341'>341</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_341'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getLastAcquiresPerPeriod<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_351'>351</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_351'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAcquireCount<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAvailablePermits(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_366'>366</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_366'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAvailablePermits<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAvailablePermits(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getAvailablePermits<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAvailablePermits(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_379'>379</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_379'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAverageCallsPerPeriod<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAverageCallsPerPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getAverageCallsPerPeriod<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>getAverageCallsPerPeriod<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/concurrent/TimedSemaphore::getAverageCallsPerPeriod &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_391'>391</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_391'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getPeriod<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/TimedSemaphore::getPeriod &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_400'>400</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_400'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getUnit<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/TimedSemaphore::getUnit to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_409'>409</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_409'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getExecutorService<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/TimedSemaphore::getExecutorService to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_420'>420</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_420'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>startTimer<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAverageCallsPerPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/TimedSemaphore::startTimer to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_423'>423</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_423'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>run<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/lang3/concurrent/TimedSemaphore::endOfPeriod &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_435'>435</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_435'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>endOfPeriod<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAverageCallsPerPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_436'>436</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_436'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>endOfPeriod<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAverageCallsPerPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> Replaced long addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_438'>438</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_438'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>endOfPeriod<br/><b>Killed by : </b>none</span></span> removed call to java/lang/Object::notifyAll &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_446'>446</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_446'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareAcquire<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testPassAfterShutdown(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_450'>450</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_450'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>prepareAcquire<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAverageCallsPerPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_464'>464</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_464'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquirePermit<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; TIMED_OUT</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>acquirePermit<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testAcquireLimit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>acquirePermit<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> <p class='TIMED_OUT'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>acquirePermit<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_465'>465</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_465'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquirePermit<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAverageCallsPerPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_466'>466</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_466'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquirePermit<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@71b676e0_468'>468</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@71b676e0_468'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>acquirePermit<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testShutdownOwnExecutor(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testAcquireNoLimit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testShutdownSharedExecutorNoTask(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testAcquireLimit(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (5 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testPassAfterShutdown(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testAcquireMultipleThreads(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (9 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testTryAcquireAfterShutdown(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAvailablePermits(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testStartTimer(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (1001 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testGetAverageCallsPerPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInitInvalidPeriod(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testInitDefaultService(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testTryAcquire(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (17 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testAcquireMultiplePeriods(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (152 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testShutdownMultipleTimes(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.TimedSemaphoreTest.testShutdownSharedExecutorTask(org.apache.commons.lang3.concurrent.TimedSemaphoreTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

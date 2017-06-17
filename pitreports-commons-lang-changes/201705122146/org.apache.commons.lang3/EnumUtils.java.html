@@ -1,0 +1,473 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>EnumUtils.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_59'>59</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_59'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnumMap<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap(org.apache.commons.lang3.EnumUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getEnumMap<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap(org.apache.commons.lang3.EnumUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>getEnumMap<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_62'>62</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_62'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnumMap<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::getEnumMap to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_75'>75</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_75'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnumList<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnumList(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::getEnumList to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_90'>90</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_90'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isValidEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_isEnum_nullClass(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_91'>91</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_91'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isValidEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_isEnum(org.apache.commons.lang3.EnumUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_95'>95</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_95'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isValidEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_isEnum(org.apache.commons.lang3.EnumUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_97'>97</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_97'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isValidEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_isEnum(org.apache.commons.lang3.EnumUtilsTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_113'>113</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_113'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnum(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_114'>114</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_114'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnum(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::getEnum to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_117'>117</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_117'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnum(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::getEnum to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_119'>119</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_119'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_getEnum(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::getEnum to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_145'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_146'>146</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_146'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>generateBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullElement(org.apache.commons.lang3.EnumUtilsTest)</span></span> removed call to org/apache/commons/lang3/Validate::isTrue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_147'>147</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_147'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>generateBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced bitwise OR with AND &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_149'>149</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_149'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/EnumUtils::generateBitVector &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_172'>172</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_172'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullElement(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_173'>173</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_173'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullElement(org.apache.commons.lang3.EnumUtilsTest)</span></span> removed call to org/apache/commons/lang3/Validate::isTrue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_176'>176</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_176'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_177'>177</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_177'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_178'>178</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_178'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced bitwise OR with AND &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_180'>180</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_180'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> removed call to org/apache/commons/lang3/ArrayUtils::reverse &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_181'>181</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_181'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::generateBitVectors to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_204'>204</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_204'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/EnumUtils::generateBitVector &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_229'>229</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_229'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_230'>230</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_230'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_231'>231</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_231'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced bitwise OR with AND &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_233'>233</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_233'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> removed call to org/apache/commons/lang3/ArrayUtils::reverse &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_234'>234</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_234'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>generateBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::generateBitVectors to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_252'>252</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_252'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>processBitVector<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVector(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::processBitVector to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_271'>271</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_271'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> removed call to org/apache/commons/lang3/ArrayUtils::reverse &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_272'>272</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_272'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_273'>273</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_273'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_274'>274</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_274'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_278'>278</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_278'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>processBitVectors<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::processBitVectors to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_292'>292</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_292'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkBitVectorable<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>checkBitVectorable<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullIterable(org.apache.commons.lang3.EnumUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>checkBitVectorable<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVector_longClass(org.apache.commons.lang3.EnumUtilsTest)</span></span> removed call to org/apache/commons/lang3/Validate::isTrue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_295'>295</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_295'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkBitVectorable<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVector(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::checkBitVectorable to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_309'>309</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_309'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>asEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nonEnumClass(org.apache.commons.lang3.EnumUtilsTest)</span></span> removed call to org/apache/commons/lang3/Validate::isTrue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@38a4d659_310'>310</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@38a4d659_310'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>asEnum<br/><b>Killed by : </b>org.apache.commons.lang3.EnumUtilsTest.test_processBitVector_longClass(org.apache.commons.lang3.EnumUtilsTest)</span></span> mutated return of Object value for org/apache/commons/lang3/EnumUtils::asEnum to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.EnumUtilsTest.test_getEnumList(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullArray(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nonEnumClassWithArray(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullElement(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nonEnumClass(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_processBitVector(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors_nullClass(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullClass(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_processBitVector_longClass(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullIterable(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_getEnumMap(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullIterable(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_longClassWithArray(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullArrayElement(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_getEnum_nullClass(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nonEnumClassWithArray(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nonEnumClass(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullArrayElement(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_isEnum_nullClass(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_isEnum(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_longClass(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorsFromArray(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectorFromArray(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullArray(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullClass(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_processBitVector_nullClass(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullClassWithArray(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector_nullClassWithArray(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_getEnum(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVectors_nullElement(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_processBitVectors(org.apache.commons.lang3.EnumUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.EnumUtilsTest.test_generateBitVector(org.apache.commons.lang3.EnumUtilsTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

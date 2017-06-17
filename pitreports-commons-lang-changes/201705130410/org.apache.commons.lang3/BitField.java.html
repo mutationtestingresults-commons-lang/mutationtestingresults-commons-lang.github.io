@@ -1,0 +1,273 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>BitField.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_87'>87</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_87'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_105'>105</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_105'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testGetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testGetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_123'>123</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_123'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getShortValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testGetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_134'>134</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_134'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRawValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testGetShortRawValue(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getRawValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testGetShortRawValue(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_145'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getShortRawValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testGetShortRawValue(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_162'>162</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_162'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isSet<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testIsSet(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isSet<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testIsSet(org.apache.commons.lang3.BitFieldTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isSet<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testIsSet(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_178'>178</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_178'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isAllSet<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testIsAllSet(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isAllSet<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testIsAllSet(org.apache.commons.lang3.BitFieldTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isAllSet<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testIsAllSet(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_192'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced XOR with AND &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>setValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>setValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced Shift Left with Shift Right &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>setValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>setValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise OR with AND &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>setValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_206'>206</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_206'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setShortValue<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_218'>218</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_218'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clear<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testClear(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced XOR with AND &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>clear<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testClear(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise AND with OR &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>clear<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testClear(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_230'>230</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_230'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clearShort<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testClearShort(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_243'>243</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_243'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clearByte<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testByte(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_255'>255</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_255'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>set<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSet(org.apache.commons.lang3.BitFieldTest)</span></span> Replaced bitwise OR with AND &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>set<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSet(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_267'>267</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_267'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setShort<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShort(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_280'>280</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_280'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setByte<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testByte(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_293'>293</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_293'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setBoolean<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetBoolean(org.apache.commons.lang3.BitFieldTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>setBoolean<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetBoolean(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_306'>306</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_306'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setShortBoolean<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortBoolean(org.apache.commons.lang3.BitFieldTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>setShortBoolean<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testSetShortBoolean(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@e6057ed_319'>319</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@e6057ed_319'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setByteBoolean<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testByte(org.apache.commons.lang3.BitFieldTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>setByteBoolean<br/><b>Killed by : </b>org.apache.commons.lang3.BitFieldTest.testByte(org.apache.commons.lang3.BitFieldTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.BitFieldTest.testClear(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testSetShort(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testIsSet(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testSetShortBoolean(org.apache.commons.lang3.BitFieldTest) (1 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testGetShortRawValue(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testGetRawValue(org.apache.commons.lang3.BitFieldTest) (1 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testGetShortValue(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testByte(org.apache.commons.lang3.BitFieldTest) (1 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testGetValue(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testSet(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testIsAllSet(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testClearShort(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testSetBoolean(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testSetShortValue(org.apache.commons.lang3.BitFieldTest) (0 ms)</li><li>org.apache.commons.lang3.BitFieldTest.testSetValue(org.apache.commons.lang3.BitFieldTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

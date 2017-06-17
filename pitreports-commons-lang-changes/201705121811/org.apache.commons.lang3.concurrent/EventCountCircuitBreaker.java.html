@@ -1,0 +1,433 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>EventCountCircuitBreaker.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_226'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getOpeningThreshold<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_235'>235</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_235'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getOpeningInterval<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testIntervalCalculation(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::getOpeningInterval &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_246'>246</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_246'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getClosingThreshold<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testDefaultClosingThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_255'>255</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_255'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getClosingInterval<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testDefaultClosingInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::getClosingInterval &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_265'>265</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_265'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkState<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_274'>274</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_274'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>incrementAndCheckState<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_286'>286</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_286'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>incrementAndCheckState<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_297'>297</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_297'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>open<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testChangeEvents(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> removed call to org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::open &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_298'>298</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_298'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>open<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> removed call to java/util/concurrent/atomic/AtomicReference::set &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_309'>309</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_309'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testChangeEvents(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> removed call to org/apache/commons/lang3/concurrent/AbstractCircuitBreaker::close &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_310'>310</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_310'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>close<br/><b>Killed by : </b>none</span></span> removed call to java/util/concurrent/atomic/AtomicReference::set &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_330'>330</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_330'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>performStateCheck<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_334'>334</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_334'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>performStateCheck<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_336'>336</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_336'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>performStateCheck<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testClose(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> removed call to org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::changeStateAndStartNewCheckInterval &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_338'>338</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_338'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>performStateCheck<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>performStateCheck<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_353'>353</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_353'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateCheckIntervalData<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotClosingOverThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>updateCheckIntervalData<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_354'>354</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_354'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateCheckIntervalData<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_364'>364</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_364'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>changeStateAndStartNewCheckInterval<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testClose(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> removed call to org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::changeState &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_365'>365</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_365'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>changeStateAndStartNewCheckInterval<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testAutomaticOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> removed call to java/util/concurrent/atomic/AtomicReference::set &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_382'>382</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_382'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nextCheckIntervalData<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_387'>387</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_387'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nextCheckIntervalData<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::nextCheckIntervalData to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_397'>397</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_397'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>now<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::now &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_409'>409</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_409'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>stateStrategy<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::stateStrategy to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_422'>422</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_422'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createStrategyMap<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker::createStrategyMap to ( if (x != null) null else throw new RuntimeException ) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_454'>454</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_454'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEventCount<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotClosingOverThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_463'>463</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_463'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getCheckIntervalStart<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotClosingOverThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData::getCheckIntervalStart &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_474'>474</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_474'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotClosingOverThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotClosingOverThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> mutated return of Object value for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData::increment to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_495'>495</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_495'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCheckIntervalFinished<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testClosingWhenThresholdReached(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCheckIntervalFinished<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> Replaced long subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isCheckIntervalFinished<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>isCheckIntervalFinished<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_532'>532</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_532'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isStateTransition<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isStateTransition<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isStateTransition<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_540'>540</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_540'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>fetchCheckInterval<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker$StateStrategyClosed::fetchCheckInterval &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_554'>554</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_554'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isStateTransition<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_555'>555</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_555'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isStateTransition<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_556'>556</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_556'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isStateTransition<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isStateTransition<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotClosingOverThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@792b5b9e_564'>564</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@792b5b9e_564'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>fetchCheckInterval<br/><b>Killed by : </b>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testClosingWhenThresholdReached(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/concurrent/EventCountCircuitBreaker$StateStrategyOpen::fetchCheckInterval &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testClose(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpeningWhenThresholdReached(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningUnderThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNow(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testStateTransitionGuarded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (28 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testChangeEvents(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testClosingWhenThresholdReached(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testIntervalCalculation(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testChangeEventsGeneratedByAutomaticTransitions(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotOpeningCheckIntervalExceeded(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testNotClosingOverThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testDefaultClosingThreshold(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testAutomaticOpenStartsNewCheckInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (2 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testRemoveChangeListener(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (1 ms)</li><li>org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest.testDefaultClosingInterval(org.apache.commons.lang3.concurrent.EventCountCircuitBreakerTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

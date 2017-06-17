@@ -1,0 +1,443 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>MutableDouble.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_87'>87</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_87'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getValue<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetSet(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> mutated return of Object value for org/apache/commons/lang3/mutable/MutableDouble::getValue to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_117'>117</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_117'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isNaN<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testNanInfinite(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_126'>126</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_126'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isInfinite<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testNanInfinite(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_136'>136</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_136'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testIncrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_148'>148</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_148'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndIncrement<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndIncrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_149'>149</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_149'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndIncrement<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndIncrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::getAndIncrement &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_160'>160</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_160'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>incrementAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testIncrementAndGet(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_161'>161</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_161'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>incrementAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testIncrementAndGet(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::incrementAndGet &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_170'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>decrement<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testDecrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_182'>182</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_182'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndDecrement<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndDecrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_183'>183</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_183'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndDecrement<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndDecrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::getAndDecrement &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_194'>194</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_194'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>decrementAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testDecrementAndGet(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_195'>195</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_195'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>decrementAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testDecrementAndGet(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::decrementAndGet &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_206'>206</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_206'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_217'>217</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_217'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_227'>227</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_227'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testSubtractValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_238'>238</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_238'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testSubtractValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_250'>250</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_250'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddAndGetValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_251'>251</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_251'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddAndGetValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::addAndGet &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_264'>264</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_264'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddAndGetValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_265'>265</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_265'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addAndGet<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddAndGetValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::addAndGet &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_278'>278</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_278'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndAdd<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndAddValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_279'>279</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_279'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndAdd<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndAddValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::getAndAdd &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_293'>293</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_293'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndAdd<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndAddValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_294'>294</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_294'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAndAdd<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndAddValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::getAndAdd &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_306'>306</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_306'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>intValue<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testDecrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_316'>316</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_316'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>longValue<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testDecrement(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of long value with value + 1 for org/apache/commons/lang3/mutable/MutableDouble::longValue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_326'>326</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_326'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>floatValue<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testPrimitiveValues(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of float value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::floatValue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_336'>336</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_336'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doubleValue<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddAndGetValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/lang3/mutable/MutableDouble::doubleValue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_346'>346</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_346'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toDouble<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testToDouble(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> mutated return of Object value for org/apache/commons/lang3/mutable/MutableDouble::toDouble to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_381'>381</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_381'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testEquals(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testEquals(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_382'>382</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_382'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testEquals(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_393'>393</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_393'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testHashCode(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced Unsigned Shift Right with Shift Left &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testHashCode(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> Replaced XOR with AND &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testHashCode(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_405'>405</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_405'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>compareTo<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testCompareTo(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1c163f3b_416'>416</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1c163f3b_416'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.lang3.mutable.MutableDoubleTest.testToString(org.apache.commons.lang3.mutable.MutableDoubleTest)</span></span> mutated return of Object value for org/apache/commons/lang3/mutable/MutableDouble::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.mutable.MutableDoubleTest.testDecrement(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testPrimitiveValues(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testHashCode(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndAddValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndIncrement(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testToDouble(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testToString(org.apache.commons.lang3.mutable.MutableDoubleTest) (1 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testCompareToNull(org.apache.commons.lang3.mutable.MutableDoubleTest) (1 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndAddValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddAndGetValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest) (1 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testEquals(org.apache.commons.lang3.mutable.MutableDoubleTest) (1 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testSubtractValueObject(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testIncrementAndGet(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testDecrementAndGet(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testConstructors(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testSubtractValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetSet(org.apache.commons.lang3.mutable.MutableDoubleTest) (1 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testNanInfinite(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testGetAndDecrement(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testAddAndGetValuePrimitive(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testIncrement(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li><li>org.apache.commons.lang3.mutable.MutableDoubleTest.testCompareTo(org.apache.commons.lang3.mutable.MutableDoubleTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

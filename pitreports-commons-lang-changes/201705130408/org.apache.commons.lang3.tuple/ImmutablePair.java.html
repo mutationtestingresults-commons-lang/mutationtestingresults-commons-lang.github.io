@@ -1,0 +1,123 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ImmutablePair.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@9e9be2e_57'>57</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@9e9be2e_57'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>of<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/lang3/tuple/ImmutablePair::of to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@9e9be2e_78'>78</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@9e9be2e_78'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getLeft<br/><b>Killed by : </b>org.apache.commons.lang3.tuple.ImmutablePairTest.testBasic(org.apache.commons.lang3.tuple.ImmutablePairTest)</span></span> mutated return of Object value for org/apache/commons/lang3/tuple/ImmutablePair::getLeft to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@9e9be2e_86'>86</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@9e9be2e_86'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRight<br/><b>Killed by : </b>org.apache.commons.lang3.tuple.ImmutablePairTest.testBasic(org.apache.commons.lang3.tuple.ImmutablePairTest)</span></span> mutated return of Object value for org/apache/commons/lang3/tuple/ImmutablePair::getRight to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.lang3.exception.ContextedExceptionTest.testGetFirstContextValue(org.apache.commons.lang3.exception.ContextedExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.ImmutablePairTest.testToString(org.apache.commons.lang3.tuple.ImmutablePairTest) (1 ms)</li><li>org.apache.commons.lang3.tuple.ImmutablePairTest.testHashCode(org.apache.commons.lang3.tuple.ImmutablePairTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testMapEntry(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShort(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testFormattable_simple(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testInteger(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testCompatibilityBetweenPairs(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testFormattable_padded(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_difference_in_inherited_field(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObject(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testGetContextLabels(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsSameAndEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testCyclicalObjectReferences(org.apache.commons.lang3.builder.EqualsBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testShortArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBooleanArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsNotSameButEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.reflect.MethodUtilsTest.testInvokeMethod(org.apache.commons.lang3.reflect.MethodUtilsTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDoubleArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByte(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testToStringCustom(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testComparable1(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testFixtureWithTransients(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloat(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testReflectionEquals(org.apache.commons.lang3.builder.EqualsBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.ImmutablePairTest.testSerialization(org.apache.commons.lang3.tuple.ImmutablePairTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectArrayEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.CompareToBuilderTest.testReflectionHierarchyCompareTransients(org.apache.commons.lang3.builder.CompareToBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_primitive_difference(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.exception.DefaultExceptionContextTest.testGetContextEntries(org.apache.commons.lang3.exception.DefaultExceptionContextTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testComparable2(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.exception.ContextedExceptionTest.testNullExceptionPassing(org.apache.commons.lang3.exception.ContextedExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.exception.ContextedExceptionTest.testGetContextLabels(org.apache.commons.lang3.exception.ContextedExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_no_differences_inheritance(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.exception.DefaultExceptionContextTest.testAddContextValue(org.apache.commons.lang3.exception.DefaultExceptionContextTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectsNotSameNorEqual(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testIntegerWithTransients(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.exception.ContextedExceptionTest.testGetContextEntries(org.apache.commons.lang3.exception.ContextedExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.testFixture(org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.CompareToBuilderTest.testReflectionHierarchyCompareExcludeFields(org.apache.commons.lang3.builder.CompareToBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testSimilarObjectIgnoresAppends(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testObjectArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.exception.DefaultExceptionContextTest.testSetContextValue(org.apache.commons.lang3.exception.DefaultExceptionContextTest) (1 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testObjectRecursive(org.apache.commons.lang3.builder.EqualsBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_array_difference(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (6 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testGetContextValues(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testInt(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testCharArray(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.exception.DefaultExceptionContextTest.testGetFirstContextValue(org.apache.commons.lang3.exception.DefaultExceptionContextTest) (0 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testGetFirstContextValue(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testBoolean(org.apache.commons.lang3.builder.DiffBuilderTest) (16 ms)</li><li>org.apache.commons.lang3.exception.ContextedExceptionTest.testAddContextValue(org.apache.commons.lang3.exception.ContextedExceptionTest) (17 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testChar(org.apache.commons.lang3.builder.DiffBuilderTest) (2 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDiffResult(org.apache.commons.lang3.builder.DiffBuilderTest) (2 ms)</li><li>org.apache.commons.lang3.exception.DefaultExceptionContextTest.testJavaSerialization(org.apache.commons.lang3.exception.DefaultExceptionContextTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testFloatArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLong(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testReflectionAppend(org.apache.commons.lang3.builder.EqualsBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testDouble(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testLongArray(org.apache.commons.lang3.builder.DiffBuilderTest) (2 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testReflectionEqualsExcludeFields(org.apache.commons.lang3.builder.EqualsBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.exception.ContextedExceptionTest.testSetContextValue(org.apache.commons.lang3.exception.ContextedExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testAddContextValue(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (3 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testGetContextEntries(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.ImmutablePairTest.testPairOf(org.apache.commons.lang3.tuple.ImmutablePairTest) (0 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testReflectionHierarchyEquals(org.apache.commons.lang3.builder.EqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testSetContextValue(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (0 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testNullExceptionPassing(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (1 ms)</li><li>org.apache.commons.lang3.tuple.PairTest.testToString(org.apache.commons.lang3.tuple.PairTest) (0 ms)</li><li>org.apache.commons.lang3.exception.DefaultExceptionContextTest.testGetContextLabels(org.apache.commons.lang3.exception.DefaultExceptionContextTest) (0 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testIntArray(org.apache.commons.lang3.builder.DiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testJavaSerialization(org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest) (3 ms)</li><li>org.apache.commons.lang3.tuple.ImmutablePairTest.testBasic(org.apache.commons.lang3.tuple.ImmutablePairTest) (0 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testToEqualsExclude(org.apache.commons.lang3.builder.EqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testObjectRecursiveCycleSelfreference(org.apache.commons.lang3.builder.EqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.builder.EqualsBuilderTest.testObjectRecursiveCycle(org.apache.commons.lang3.builder.EqualsBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.exception.ContextedExceptionTest.testJavaSerialization(org.apache.commons.lang3.exception.ContextedExceptionTest) (6 ms)</li><li>org.apache.commons.lang3.exception.ContextedExceptionTest.testGetContextValues(org.apache.commons.lang3.exception.ContextedExceptionTest) (1 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_no_differences(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.tuple.ImmutablePairTest.testEquals(org.apache.commons.lang3.tuple.ImmutablePairTest) (1 ms)</li><li>org.apache.commons.lang3.builder.DiffBuilderTest.testByteArray(org.apache.commons.lang3.builder.DiffBuilderTest) (1 ms)</li><li>org.apache.commons.lang3.exception.DefaultExceptionContextTest.testGetContextValues(org.apache.commons.lang3.exception.DefaultExceptionContextTest) (1 ms)</li><li>org.apache.commons.lang3.reflect.MethodUtilsTest.testInvokeStaticMethod(org.apache.commons.lang3.reflect.MethodUtilsTest) (0 ms)</li><li>org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.test_transient_field_difference(org.apache.commons.lang3.builder.ReflectionDiffBuilderTest) (0 ms)</li><li>org.apache.commons.lang3.builder.CompareToBuilderTest.testReflectionHierarchyCompare(org.apache.commons.lang3.builder.CompareToBuilderTest) (2 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>
